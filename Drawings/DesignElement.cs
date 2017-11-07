@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Drawings
 {
-    class DesignElement
+    abstract class DesignElement
     {
         private float x, y, width, height;
         Pen pen;
@@ -100,7 +100,6 @@ namespace Drawings
             this.G = g;
         }
 
-        void draw(){
-        }
+        abstract public void draw();
     }
 }
