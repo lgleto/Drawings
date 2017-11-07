@@ -40,6 +40,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonPencil = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panelDrawing
@@ -155,11 +156,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.buttonElement_Click);
             // 
+            // buttonPencil
+            // 
+            this.buttonPencil.Location = new System.Drawing.Point(13, 101);
+            this.buttonPencil.Name = "buttonPencil";
+            this.buttonPencil.Size = new System.Drawing.Size(42, 23);
+            this.buttonPencil.TabIndex = 5;
+            this.buttonPencil.Text = "Pencil";
+            this.buttonPencil.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(386, 360);
+            this.Controls.Add(this.buttonPencil);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel7);
@@ -192,6 +203,7 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonPencil;
     }
 }
 
